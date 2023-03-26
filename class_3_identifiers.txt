@@ -1,0 +1,85 @@
+Identifiers:-
+-----------
+
+A name in python program is called identifiers.
+It can be class name, variable name, function name or module name.
+
+variable = data
+
+
+Rules to define identifiers in python:-
+------------------------------------
+
+1.The only allowed charcters in python are
+
+ > alphabets(upper case and lower case).
+ > digits (0 to 9).
+ > special symbol(under score _ )
+
+2. Identifiets should not start with digit.
+
+	>>>> Ajhj = 10
+>>> ghA_ = 10
+>>> _cgue67 = 10
+>>> 67hg = 78
+SyntaxError: invalid syntax
+
+3. Identifiers are case sensitive , Of course python language is case sensitive language.
+
+>>> total = 99
+>>> total
+99
+>>> Total
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    Total
+NameError: name 'Total' is not defined
+----------------------------
+
+PEP8:- Python Enterprise Proposal 
+
+Writing code with proper logic is a key factor of programming, it is the guidless and format how to write coding style make code much reliable.
+
+
+Camel Casing:-( ClassName and ModuleName and FolderName)
+
+Use Area :- Uppercase, Lowercase and digit
+
+1.Everyword first char. should be upper and rest are lower.
+
+Ex:- State Bank Of India
+
+>>>>>> StateBankOfIndia100927
+
+
+
+Snake Casing:- (variable_name,function_name,file_name)
+
+Use Area :- Lowercase and digit and underscore(_)
+
+1.Everychar of snake casing is lower and we will use  _ symbol between the two words.
+
+Ex:- State Bank Of India
+
+>>>>>> state_bank_of_india_100927
+
+
+What is Data?
+
+Collection of meaning full information is called data.
+
+What is variable?
+
+variable store the data in python or any other language also.
+
+ex:-
+
+ a = 10
+
+
+a---> normal variable
+_a ---> Protected variable
+
+__a ---> Private variable
+
+

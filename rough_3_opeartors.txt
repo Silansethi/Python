@@ -1,0 +1,99 @@
+# OPERATORS
+'''
+1.Arithmetic
+2.Relational or Comparision
+3.Logical
+4.Bitwise)Not Required)
+5.Assigment
+6.Special op
+
+'''
+#1.Arithmetic:- Those opeartor symbols, can peform some mathmetical opeartion.
+
+'''
++(Additional)
+-(Sub)
+*(Multiplication)
+/(div)
+%(modulo)-- Reminder
+//(Floor Division)
+**(Exponent)(value ** power)
+'''
+'''
+a = 10
+b = 20
+
+#additional
+c = a+b
+print(c)
+
+#sub
+c = a-b
+print(c)
+
+#mul
+c = a*b
+print(c)
+
+#div
+c = b/a
+print(c)
+
+#floor div
+print(56//3)
+
+# modulo
+print(278%4)
+
+#Exponent
+print(8**2)
+
+'''
+
+#Relationship Opeartor or Comparison
+
+'''>,>=,<,<= , ==(equal to), !=(Not equal to)'''
+
+# print(11!=11)
+
+#Assigment opeartor
+
+#a(var) = 10(data)  - assign
+
+#compound Assignment opeartor
+'''
+x = 2
+
+# x = x+7
+x+=7
+print(x)'''
+
+#logical Operator
+'''and , or , not'''
+
+# if 10>11 or 10>12:
+#     print(10)
+
+# print(not False)
+
+
+#Special Opeartor
+'''
+1.Identity Op :- is
+2.Membership Op :- in
+'''
+# a = 10
+# print('a location:-',id(a))
+# b = 20
+# print('b location',id(b))
+#
+# print(a is not b)
+
+Name = ['Monaj','Subrat','Rajesh','Bhart']
+
+print('Praksh' not in Name)
+
+a = 10
+id(a)
+
+a = 20

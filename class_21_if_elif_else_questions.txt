@@ -1,0 +1,76 @@
+#elif
+
+'''
+syntax:-
+
+if condition:
+    statement
+elif condition:
+    statement
+elif condition:
+    statement
+else:
+    statement
+
+
+'''
+
+'''
+possibility
+if
+if-else
+if-elif-else
+
+elif-else (Not possible)
+elif(Not)
+else(not)
+'''
+
+juice = input('Enter your juice name:-')
+
+if juice == 'Mango':
+    print('Good Juice')
+elif juice == 'Apple':
+    print('Normal Juice')
+elif juice == 'Banana':
+    print('Excellent Juice')
+else:
+    print('Except these all are worst')
+
+WAP find out bigest of given two
+
+a = int(input('Enter your number:-'))
+b = int(input('Enter your second number:-'))
+
+if a>b:
+    print(a,'is biggest')
+else:
+    print(b,'is biggest')
+
+WAP find out bigest of given three
+
+a=int(input('enter a 1st no'))
+b=int(input('enter a 2nd no'))
+c=int(input('enter a 3rd no'))
+
+if a>b and a>c:
+    print(a)
+elif b>c:
+    print(b)
+else:
+    print(c)
+
+WAP if a number div by 2 print (div by 2) if a number div 3 print(div by 3) if a number div by both print
+(2 and 3)
+
+num =int(input('enter a number:-'))
+
+if num%2==0 and num%3==0:
+    print('This number div by 2 and 3')
+
+elif num%2 ==0:
+    print('This num div 2 ')
+
+elif num%3 ==0:
+    print('This num div 3')
+

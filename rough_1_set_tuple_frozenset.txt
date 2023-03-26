@@ -1,0 +1,143 @@
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> s = {1,1,2,3,4,5,1,1,2,2,2,3,3,3,4,5}
+>>> s
+{1, 2, 3, 4, 5}
+>>> s = {1,7890.90,7+9j,'ghjk',[78,90]}
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    s = {1,7890.90,7+9j,'ghjk',[78,90]}
+TypeError: unhashable type: 'list'
+>>> s = {1,7890.90,7+9j,'ghjk'}
+>>> s
+{1, 7890.9, (7+9j), 'ghjk'}
+>>> 
+>>> s = {'sharda','67',90,'devi',789}
+>>> s
+{'sharda', 789, 'devi', 90, '67'}
+>>> dir(s)
+['__and__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__iand__', '__init__', '__init_subclass__', '__ior__', '__isub__', '__iter__', '__ixor__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__rand__', '__reduce__', '__reduce_ex__', '__repr__', '__ror__', '__rsub__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__xor__', 'add', 'clear', 'copy', 'difference', 'difference_update', 'discard', 'intersection', 'intersection_update', 'isdisjoint', 'issubset', 'issuperset', 'pop', 'remove', 'symmetric_difference', 'symmetric_difference_update', 'union', 'update']
+>>> 
+>>> 
+>>> #add
+>>> s = {'sharda','67',90,'devi',789}
+>>> s.add('Rituraj')
+>>> s
+{'sharda', 789, 'devi', 90, '67', 'Rituraj'}
+>>> s.add('RTYI')
+>>> s
+{'sharda', 'RTYI', 789, 'devi', 90, '67', 'Rituraj'}
+>>> 
+>>> 
+>>> #clear()
+>>> s = {'sharda','67',90,'devi',789}
+>>> s.clear()
+>>> s
+set()
+>>> 
+>>> 
+>>> #copy
+>>> s = {'sharda','67',90,'devi',789}
+>>> t = s.copy()
+>>> t
+{'sharda', 789, 'devi', 90, '67'}
+>>> type(t)
+<class 'set'>
+>>> 
+>>> #pop
+>>> s = {'sharda','67',90,'devi',789}
+>>> s.pop()
+'sharda'
+>>> s.opo()
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    s.opo()
+AttributeError: 'set' object has no attribute 'opo'
+>>> s.pop()
+789
+>>> 
+>>> #remove()
+>>> s = {'sharda','67',90,'devi',789}
+>>> s.remove(90)
+>>> s
+{'sharda', 789, 'devi', '67'}
+>>> 
+>>> 
+>>> #difference
+>>> a = {1,2,3,4,5}
+>>> b = {6,7,8,4,5}
+>>> a.difference(b)
+{1, 2, 3}
+>>> b.difference(a)
+{8, 6, 7}
+>>> 
+>>> #intersection
+>>> a = {1,2,3,4,5}
+>>> b = {6,7,8,4,5}
+>>> a.intersection(b)
+{4, 5}
+>>> b.intersection(a)
+{4, 5}
+>>> 
+>>> 
+>>> #union
+>>> a = {1,2,3,4,5}
+>>> b = {6,7,8,4,5}
+>>> a.union(b)
+{1, 2, 3, 4, 5, 6, 7, 8}
+>>> 
+>>> 
+>>> a
+{1, 2, 3, 4, 5}
+>>> b
+{4, 5, 6, 7, 8}
+>>> #update
+>>> 
+>>> 
+>>> a = {1,2,3,4,5}
+>>> b = {6,7,8,4,5}
+>>> a.update(b)
+>>> a
+{1, 2, 3, 4, 5, 6, 7, 8}
+>>> b
+{4, 5, 6, 7, 8}
+>>> a
+{1, 2, 3, 4, 5, 6, 7, 8}
+>>> 
+>>> 
+>>> #frozenset
+>>> #type casting
+>>> 
+>>> li = [67,90,76,67,89,56,45,89]
+>>> fz = fronzenset(li)
+Traceback (most recent call last):
+  File "<pyshell#79>", line 1, in <module>
+    fz = fronzenset(li)
+NameError: name 'fronzenset' is not defined
+>>> fz = frozenset(li)
+>>> fz
+frozenset({67, 76, 45, 56, 89, 90})
+>>> type(fz)
+<class 'frozenset'>
+>>> 
+>>> 
+>>> 
+
+>>> li = [67,90,76,67,89,56,45,89]
+>>> fz = frozenset(li)
+>>> fz
+frozenset({67, 76, 45, 56, 89, 90})
+>>> type(fz)
+<class 'frozenset'>
+>>> 
+>>> 
+>>> 
+>>> li = [67,90,76,67,89,56,45,89]
+>>> s = set(li)
+>>> s
+{67, 76, 45, 56, 89, 90}
+>>> type(s)
+<class 'set'>
+>>> dir(fz)
+['__and__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__rand__', '__reduce__', '__reduce_ex__', '__repr__', '__ror__', '__rsub__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__xor__', 'copy', 'difference', 'intersection', 'isdisjoint', 'issubset', 'issuperset', 'symmetric_difference', 'union']
+>>> 

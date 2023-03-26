@@ -1,0 +1,64 @@
+Reserved Words:-
+--------------
+
+In Python some words are resereved to represt some meaning of functionality, such type of words are called Reserved Words.
+
+In Python There are 35 reseved words.
+
+In Python we also called keyword.
+
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', '__peg_parser__', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>> 
+
+Note:- We can not use any reserved words as a identifiers name.
+
+ex:-
+
+>>> a = 10
+>>> return = 10
+SyntaxError: invalid syntax
+
+
+Relation Between Data and Variable.
+
+Variable :- In Variable we can assign the data with help of (= ) equal to symbol.
+
+a = 10
+
+a >> variable
+10 >> data
+
+In Python very thing is an object.
+
+What is object?
+
+Those are some have physical exitance are know as object.
+
+>>> a = 10
+>>> id(a)
+2077872646736
+>>> b = 10
+>>> id(b)
+2077872646736
+>>> a = 30
+>>> id(a)
+2077872647376
+
+
+#Garbage Collection
+------------------
+
+UsuallyProgrammer taking very much acre while creating object, but negelaecting destruction of useless object.Because of his neglentace, total memory can be filled with useless object. which creates memory problems.
+
+We have some assistance which is always running in the background to destroy useless object.Because this assitant the chance of falling python program with memory problem is very less. This assistant is nothing but Garbage Collector, process Garbage Collection
+
+>>> a = 10
+>>> id(a)
+2077872646736
+>>> 
+>>> a = 20
+>>> id(a)
+2077872647056
+

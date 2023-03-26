@@ -1,0 +1,67 @@
+Language Fundamentals
+---------------------
+
+Introductions:-
+
+1.Python is a general purpose of high level programming language.
+	> 3types of programming language.
+
+		> 1.Low Level (Dev very slow but Prod Very Fast).
+		> 2.Middum Level(Dev Very slow but Prod Fast).
+		> 3.High Level(Oops:- Object Oriented and Pops:- Procedure Oriented)
+
+
+2.Python was developed by Guido Van Rossan in 1989,
+
+3.Officail :- 1991 feb 20th
+
+4.Python is a scripting language.
+
+Ex:- Print :- 'HelloWorld'
+
+java:-
+
+public class HelloWorld
+{
+	p s v main[string[]args]
+	{
+		SOP["Hello World"]
+	}
+}
+
+C:-
+
+#include<stdio.h>
+
+void main()
+{
+	print('Hello World')
+}
+
+
+Python:-
+
+print('Hello World')
+
+
+
+Where We Can Use Python:-
+-----------------------
+
+1.Developing Destop Applications.
+2.Developing Web Applications.
+3.Developing Database Applications.
+4.Network Programming.
+5.Developing Games.
+6.Data Science/Analysis Applications.
+7.Machine Learning and Deeping Learing.
+8.AI implitation.
+
+
+Limitation Of Python:-
+--------------------
+1.Mobile Applications
+2.Banking(Transfer Related Applications)
+
+
+Next Day Topic:- Features Of Python

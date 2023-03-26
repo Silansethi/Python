@@ -1,0 +1,58 @@
+Internally Google and Youtube use python codeing.
+Nasa and Network stock Exchange applocations developed by python.
+Top S/W companies like Google,Microsoft,IBM,Yahoo using python.
+
+Features of Python:-
+------------------
+
+1.simple and easy to learn:-
+----------------------------
+
+Python is a  simple programming lang.,when we read python program we can fell like read english statements.
+The syntax are very very simple when compared with other laguages.
+
+2.Freeware and Open source:-
+-----------------------------
+
+We can use python software wo=ithout any licence and it is known as freeware,
+
+Its source code is open,that can we can customize based on our requirement.
+
+3.High Level programming language:-
+----------------------------------
+
+Python is hight level programming lang. amd hence it is programmer friendly lang.Being aprohrammer we are not required to concentrate low level activities like memory management and securty etc.
+
+4.Platform Independent:-
+-------------------------
+
+Once we write a python program, It can run on any platform without rewriting once again,Internally PVM(python virtual machine ) is responsible to convert into machine understandable form.
+
+5.portability:-
+-------------
+
+Python programs are portable that is we can migrate from one platform to another platform ver easily ,python provides same result on ony platform.
+
+6.Dynamically Typed:-
+-------------------
+
+In python we are not required to decalre type for variable ,when ever we assinging the value based on value,Type will be allocated automatically,Hence python is considered as dynamically type lang.
+
+This dynamic typing nature will provide more flexibility to the programmer.
+
+7.Both procedure oriented and object oriented:-
+------------------------------------------------
+Python languages supports both procedure oriented(like c and pascal etc) and object oriented(luje c++, java) features,Hence we can get benifits of both like security and reusability etc
+.
+
+8.Extensive Library:-
+---------------
+python has a rich inbuilt library
+python have 60k+ lib. Being a programmer we can use this lib, directly and we are not responsiable to implemenet to functionality.
+
+
+limition of python:-
+---------------------
+
+1. Banking sector.
+2. Telecome application

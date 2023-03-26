@@ -1,0 +1,109 @@
+float data type:-
+---------------
+
+we can use float data type to represent floating point values(decimal values).
+
+>>> a = -2.8
+>>> type(a)
+<class 'float'>
+>>> b = 90.87
+>>> type(b)
+<class 'float'>
+>>> c = 8.0
+>>> type(c)
+<class 'float'>
+
+We will do all mathmetical opeartion use float.
+
+float number is not allowed for "Base Conversion.", If we will try we will get below error.
+
+a = 8.9
+>>> bin(a)
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    bin(a)
+TypeError: 'float' object cannot be interpreted as an integer
+
+
+
+Complex Number:-
+---------------
+A Number still is not resolve, it's known as Complex Number.
+
+syntax:-
+
+a+bj :-   a is real part and bj is imaginary part
+
+'j' is pointing complex part.
+
+>>> a = 7+8j
+>>> type(a)
+<class 'complex'>
+>>> 
+>>> b = 9-7.8j
+>>> type(b)
+<class 'complex'>
+>>> 
+>>> c = -9.7-7.6j
+>>> type(c)
+<class 'complex'>
+
+
+Note:- We can do addition, substraction, Multiplication and Division for complex, but real part with real part and img is always with imag,
+
+>>> a = 8+9j
+>>> b = 7+6j
+>>> a+b
+(15+15j)
+>>> 
+>>> a-b
+(1+3j)
+>>> 
+>>> a*b
+(2+111j)
+>>> 
+>>> a/b
+(1.2941176470588236+0.17647058823529416j)
+
+
+Note:- Complex data type has some inbuilt attributes to retrivr the real part and imaginary part.
+
+>>> a = 6+9j
+>>> a.real
+6.0
+>>> a.imag
+9.0
+>>> 
+
+
+Boolean:-
+--------
+
+We can use this data type to represent boolean values.
+
+The only allowed values for this data type.
+
+True and False.
+
+
+>>> 
+>>> fruites = ['Mango','Ornage','Apple']
+>>> 'Mango' in fruites
+True
+>>> 'Bananan' in fruites
+False
+
+Note:- If in a container nothing is their and it's empty it's showing False
+		If in a container something  is exits  it's showing True
+
+
+Internally in python everytime represnt True as 1 and False as 0.
+
+>>> True+True
+2
+>>> True+False
+1
+>>> False+False
+0
+>>> 
+

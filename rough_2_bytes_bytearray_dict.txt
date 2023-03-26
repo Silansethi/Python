@@ -1,0 +1,72 @@
+>>> #Type Casting
+>>> '''When we will change one datatype to another datatype it's know as type casting'''
+"When we will change one datatype to another datatype it's know as type casting"
+>>> a = 10
+>>> b = float(a)
+>>> b
+10.0
+>>> type(b)
+<class 'float'>
+>>> 
+>>> 
+>>> li = [1,2,3,45]
+>>> fz = frozenset(li)
+>>> type(fz)
+<class 'frozenset'>
+>>> 
+>>> li = [1,2,3,45]
+>>> tup = tuple(li)
+>>> tup
+(1, 2, 3, 45)
+>>> type(tup)
+<class 'tuple'>
+---------------------------
+>>> #bytes() and bytearray
+>>> li = [899,798,67,90,54,123,92,231]
+>>> by = bytes(li)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    by = bytes(li)
+ValueError: bytes must be in range(0, 256)
+>>> li = [89,9,79,8,67,90,54,123,92,231]
+>>> by = bytes(li)
+>>> type(by)
+<class 'bytes'>
+>>> by
+b'Y\tO\x08CZ6{\\\xe7'
+>>> #bytes is immutable datatype
+>>> dir(by)
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'center', 'count', 'decode', 'endswith', 'expandtabs', 'find', 'fromhex', 'hex', 'index', 'isalnum', 'isalpha', 'isascii', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> 
+>>> 
+>>> #bytearray
+>>> li = [899,798,67,90,54,123,92,231]
+>>> by = bytearray(li)
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    by = bytearray(li)
+ValueError: byte must be in range(0, 256)
+>>> li = [89,9,79,8,67,90,54,123,92,231]
+>>> by = bytearray(li)
+>>> type(by)
+<class 'bytearray'>
+>>> by
+bytearray(b'Y\tO\x08CZ6{\\\xe7')
+
+
+
+dictionary:-
+
+
+Name                        age                             address              
+
+Ravi                        26                              Cuttack
+Rocky                       27                              Bhubaneswar
+Ritu                        26                              Cuttack
+Aneswaha                    26                              Odisha
+Ravi                        31                              Cuttack
+
+
+di = {'Name':'Ravi','age':26,'address':'Cuttack'}
+di_1 = {'Name':'Rocky','age':27,'address':'Bhubaneswar'}
+di_2 = {'Name':'Ritu','age':26,'address':'Cuttack'}

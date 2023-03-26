@@ -1,0 +1,17 @@
+
+                                  None Data type
+                                 -----------------
+
+None means Nothing or No Value associated.
+If the value is not available , then to handel such type of case , None is introduced.
+
+ans:-
+>>> def m1():
+	a = 10
+
+	
+>>> print(m1)
+<function m1 at 0x00000273F490EB80>
+>>> print(m1())
+None
+
